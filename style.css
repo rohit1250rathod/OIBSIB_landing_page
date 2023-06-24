@@ -1,0 +1,261 @@
+body{   
+    margin: 0;
+    background-color: rgb(230, 229, 229);
+}
+body .divv{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+}
+.head2 ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.head2 ul li{
+    width: 80px;
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color: rgb(255, 119, 0);
+    color: white;
+}
+header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    align-items: baseline;
+    padding: 15px 10px;
+    justify-content: space-around;
+    z-index: 1;
+    background-color: rgba(230, 229, 229, 1);
+}
+header .head1 h1{
+    margin: 0;
+    font-size: 35px;
+    color: rgb(255, 119, 0);
+}
+.head2{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 100px;
+}
+.head2 div{
+    display: flex;
+}
+.head2 div h2{
+    margin: 0;
+    font-size: 20px;
+    width: 70px;
+}
+.part1{
+    width: 40%;
+    height: 200px;
+}
+.part2{
+    width: 60%;
+}
+.part1 h1{
+    margin: 0;
+    color: rgb(251, 126, 16);
+    font-family: Lobster;
+}
+.part1 h2{
+    font-family: Roboto;
+}
+
+.content{
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+    height: 490px;
+}
+.content .part1{
+    padding-left: 120px;
+    padding-top: 70px;
+}
+.part1 p{
+    width: 70%;
+    text-align: justify;
+}
+.part2cont{
+    height: 500px;
+}
+.part2cont img{
+    position: absolute;
+    border: 1px solid rgb(255, 119, 0);
+    margin-top: 10px;
+    height: 518px;
+    width: 680px;
+    margin-left: 20px;
+    clip-path: circle(58.8% at 62% 69%);
+}
+.part2contt{
+    position: absolute;
+    width: 700px;
+    height: 530px;
+    background-color: rgb(255, 119, 0);
+    clip-path: circle(60% at 62% 69%);
+}
+.part1 h1{
+    font-size: 80px;
+}
+.part1 h2{
+    font-size: 100px;
+    font-weight: 1800;
+    margin: 0;
+    color: rgb(251, 126, 16);
+}
+.part1 button{
+    width: 100px;
+    height: 35px;
+    border-radius: 17.5px;
+    border: none;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    font-weight: 500;
+}
+.part1 button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(255, 119, 0);
+    color: rgb(255, 119, 0);
+    font-weight: 600;
+}
+.category{
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 300px;
+    padding: 0px 10%;
+}
+.container h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+.container h1::after{
+    content: '';
+    display: block;
+    width: 7%;
+    height: 3px;
+    background-color: rgb(251, 126, 16);
+    margin: auto;
+}
+.container p{
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+}
+.contact{
+    background-color: rgba(0, 0, 0,0.95);
+    color: white;
+    padding: 50px 10% 0 10%;
+}
+.contact .h1{
+    margin: 0;
+    font-size: 30px;
+    color: rgb(251, 126, 16);
+    text-align: center;
+}
+.contact .h1::after{
+    content: '';
+    margin: auto;
+    width: 5%;
+    height: 3px;
+    display: block;
+    bottom: 0px;
+    background-color: rgb(251, 126, 16);
+}
+.contact .threebox{
+    display: flex;
+    width: 100%;
+    gap: 10%;
+}
+.onebox,.secbox,.lastbox{
+    width: 35%;
+}
+footer{
+    text-align: center;
+}
+footer h5{
+    margin: 0;
+}
+.chose{
+    min-height: 250px;
+    background-color: white;
+    padding-top: 40px;
+}
+.chose h1{
+    text-align: center;
+    margin: 0;
+}
+.boxchose{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 90px;
+}
+.chosebox{
+    border: 1px solid rgb(251, 126, 16);
+    box-shadow: 4px 4px 4px rgb(251, 126, 16);
+    height: 160px;
+    width: 130px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chosebox i{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.chose h1::after{
+    content: '';
+    display: block;
+    background-color: rgb(251, 126, 16);
+    margin: auto;
+    width: 3%;
+    height: 3px;
+}
+.secbox h3{
+    font-size: 14px;
+    margin: 0;
+    color: blue;
+}
+.secbox h3:hover,.lastbox h3:hover{
+    color: rgb(251, 126, 16);
+}
+.secbox h2,.lastbox h2{
+    color: rgb(251, 126, 16);
+}
+/* .contentbox{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 250px;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+} */
